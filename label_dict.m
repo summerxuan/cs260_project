@@ -5,23 +5,28 @@ function [ num] = label_dict( label )
 if(strcmp(label,'AN' ))
     num =1
 end
-if(strcmp(label,'DI' ))
+if(strcmp(label,'CO' ))
     num =2
 end
-if(strcmp(label,'FE' ))
+if(strcmp(label,'DI' ))
     num =3
 end
-if(strcmp(label,'HA' ))
+if(strcmp(label,'FE' ))
     num =4
 end
-if(strcmp(label,'NE' ))
+if(strcmp(label,'HA' ))
     num =5
 end
+
+
 if(strcmp(label,'SA' ))
     num =6
 end
 if(strcmp(label,'SU' ))
     num =7
+end
+if(strcmp(label,'NE' ))
+    num =8
 end
 end
 
